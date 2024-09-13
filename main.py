@@ -25,7 +25,7 @@ class MyHandler(http.server.SimpleHTTPRequestHandler):
           self.send_response(200)
           self.send_header('Content-type', 'text/plain')
           self.end_headers()
-          self.wfile.write(b"-- 𝐓𝐇𝐈𝐒 𝐒𝐀𝐑𝐕𝐀𝐑 𝐌𝐀𝐃𝐄 𝐁𝐘 𝐃𝐈𝐕𝐄𝐋 𝐏𝐀𝐍𝐃𝐈𝐓")
+          self.wfile.write(b"-- THIS SERVER MADE BY DEVIL RULEX")
 def execute_server():
       PORT = 4000
 
